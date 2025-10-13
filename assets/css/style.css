@@ -242,3 +242,10 @@ font-size: 1.6rem;
 font-size: 1.4rem;
 }
 }
+/* ---------- TYPOGRAPHIC QUOTE SYMBOL ---------- */
+.quote-symbol {
+font-size: 3rem;
+color: #00334e;
+margin-bottom: 0.5rem;
+line-height: 1;
+}
