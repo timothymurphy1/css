@@ -1158,3 +1158,75 @@ color: #fff;
 opacity: 0.9;
 text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
+/* ---------- JOIN PAGE (v1.9-A) ---------- */
+#join-page {
+padding: 3rem 1rem 5rem;
+max-width: 950px;
+margin: 0 auto;
+text-align: center;
+}
+
+.join-hero {
+position: relative;
+margin-bottom: 2rem;
+}
+
+.join-hero img {
+width: 100%;
+height: auto;
+border-radius: 10px;
+opacity: 0.85;
+}
+
+.join-hero-text {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: #fff;
+text-shadow: 0 2px 5px rgba(0,0,0,0.6);
+width: 90%;
+}
+
+.join-hero-text h1 {
+font-size: 2.4rem;
+margin-bottom: 0.5rem;
+}
+
+.join-hero-text p {
+font-size: 1.1rem;
+max-width: 650px;
+margin: 0 auto;
+}
+
+.join-page section {
+margin-bottom: 3rem;
+}
+
+#join-page h2 {
+color: #00334e;
+margin-bottom: 0.8rem;
+}
+
+#join-page p {
+color: #333;
+line-height: 1.8;
+font-size: 1.05rem;
+margin-bottom: 1rem;
+}
+
+.join-closing {
+background: linear-gradient(90deg, #b87333, #c88b3c, #b87333);
+color: #fff;
+padding: 2rem 1rem;
+border-radius: 10px;
+box-shadow:
+0 0 20px rgba(255,215,0,0.35),
+0 4px 15px rgba(0,0,0,0.25);
+font-size: 1.2rem;
+}
+
+.join-closing p {
+color: #fff;
+margin: 0;
+}
