@@ -586,3 +586,49 @@ text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
 max-width: 700px;
 text-align: left;
 }
+/* ---------- LIFTED NAV, CLEAR HORIZON ---------- */
+
+/* Float the nav high over the hero image */
+.nav-header {
+position: fixed;
+top: 1rem; /* lift slightly from top edge */
+left: 0;
+width: 100%;
+z-index: 1000;
+background: rgba(0, 0, 0, 0.25); /* light transparent tint */
+backdrop-filter: blur(4px);
+padding: 0.6rem 0;
+box-shadow: none;
+}
+
+/* Keep site name and tabs visible and balanced */
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 1.5rem;
+}
+
+/* Create more vertical space so hero text doesn’t hide behind nav */
+.hero {
+padding-top: 8rem; /* gives breathing room under header */
+min-height: 95vh;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+background-size: cover;
+background-position: center;
+position: relative;
+}
+
+/* Keep hero text readable over sky */
+.hero h1,
+.hero p {
+color: #ffffff;
+text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+max-width: 700px;
+text-align: left;
+}
