@@ -472,3 +472,44 @@ margin-left: auto;
 margin-right: auto;
 text-align: center;
 }
+/* ---------- HORIZON & HEATHER REFINEMENT ---------- */
+
+/* Lift the transparent nav header a bit higher and lighten opacity */
+.nav-header {
+top: 0;
+background: rgba(0, 0, 0, 0.35); /* slightly lighter */
+padding-top: 0.4rem;
+padding-bottom: 0.4rem;
+}
+
+/* Ensure hero section starts a touch lower so horizon clears */
+.hero {
+padding-top: 6rem; /* previously 5rem */
+display: flex;
+flex-direction: column;
+align-items: flex-start; /* text begins left side */
+justify-content: center;
+min-height: 90vh;
+padding-left: 8%;
+}
+
+/* Shift hero text inland (left on desktop) and keep responsive */
+.hero h1,
+.hero p {
+text-align: left;
+color: #ffffff;
+text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+max-width: 600px;
+}
+
+/* Add a soft fade at bottom to transition into white content area */
+.hero::after {
+content: "";
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+height: 15vh;
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, #ffffff 100%);
+pointer-events: none;
+}
