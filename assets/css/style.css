@@ -473,7 +473,6 @@ margin-right: auto;
 text-align: center;
 }
 /* ---------- HORIZON & HEATHER REFINEMENT ---------- */
-
 /* Lift the transparent nav header a bit higher and lighten opacity */
 .nav-header {
 top: 0;
@@ -481,7 +480,6 @@ background: rgba(0, 0, 0, 0.35); /* slightly lighter */
 padding-top: 0.4rem;
 padding-bottom: 0.4rem;
 }
-
 /* Ensure hero section starts a touch lower so horizon clears */
 .hero {
 padding-top: 6rem; /* previously 5rem */
@@ -492,7 +490,6 @@ justify-content: center;
 min-height: 90vh;
 padding-left: 8%;
 }
-
 /* Shift hero text inland (left on desktop) and keep responsive */
 .hero h1,
 .hero p {
@@ -501,7 +498,6 @@ color: #ffffff;
 text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
 max-width: 600px;
 }
-
 /* Add a soft fade at bottom to transition into white content area */
 .hero::after {
 content: "";
@@ -512,4 +508,35 @@ right: 0;
 height: 15vh;
 background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, #ffffff 100%);
 pointer-events: none;
+}
+/* ---------- FREE THE HORIZON ---------- */
+
+/* Lift the nav bar completely off the image area */
+.nav-header {
+position: relative; /* instead of fixed */
+background: transparent; /* fully clear */
+backdrop-filter: none;
+box-shadow: none;
+z-index: 10;
+}
+
+/* Give the hero its own breathing space above */
+.hero {
+margin-top: -2rem; /* pull image up slightly */
+padding-top: 2rem; /* small inner top space */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+min-height: 95vh;
+background-size: cover;
+background-position: center;
+position: relative;
+}
+
+/* Re-colour the text to keep contrast over bright sky */
+.hero h1,
+.hero p {
+color: #ffffff;
+text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
