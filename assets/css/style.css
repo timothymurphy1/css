@@ -794,3 +794,97 @@ padding: 0.7rem 1.2rem;
 border-radius: 6px;
 text-decoration: none;
 }
+/* ---------- JOHN DOERR PAGE ---------- */
+#john-doerr-page {
+padding: 3rem 1rem 5rem;
+max-width: 900px;
+margin: 0 auto;
+text-align: center;
+}
+
+.doerr-intro img {
+width: 100%;
+border-radius: 10px;
+margin-bottom: 1rem;
+}
+
+.doerr-intro h1 {
+color: #00334e;
+margin-bottom: 1rem;
+}
+
+.doerr-intro p {
+color: #444;
+line-height: 1.8;
+}
+
+.doerr-gallery {
+display: flex;
+justify-content: center;
+gap: 1rem;
+margin: 2rem 0;
+flex-wrap: wrap;
+}
+
+.doerr-gallery img {
+width: 45%;
+border-radius: 8px;
+}
+
+.doerr-core {
+margin-top: 2rem;
+}
+
+.doerr-core h2 {
+color: #00334e;
+margin-bottom: 1rem;
+}
+
+.doerr-core figure {
+margin: 2rem auto;
+max-width: 700px;
+}
+
+.doerr-core img {
+width: 100%;
+border-radius: 8px;
+}
+
+.doerr-core figcaption {
+font-size: 0.9rem;
+color: #555;
+margin-top: 0.5rem;
+}
+
+.doerr-quote {
+margin: 3rem auto;
+font-size: 1.4rem;
+font-style: italic;
+color: #00334e;
+}
+
+.doerr-quote footer {
+font-size: 1rem;
+font-weight: 600;
+color: #b87333;
+margin-top: 0.5rem;
+}
+
+.doerr-closing {
+margin-top: 3rem;
+line-height: 1.8;
+}
+
+.doerr-closing p {
+color: #333;
+}
+
+.doerr-closing .cta-button {
+display: inline-block;
+margin-top: 1.5rem;
+background: #b87333;
+color: #fff;
+padding: 0.8rem 1.5rem;
+border-radius: 6px;
+text-decoration: none;
+}
