@@ -50,6 +50,67 @@ max-width: 900px;
 font-size: 1.1rem;
 line-height: 1.6;
 }
+/* ---------- NAVIGATION BAR ---------- */
+.nav-header {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 1000;
+background: rgba(0, 0, 0, 0.45);
+backdrop-filter: blur(6px);
+}
+
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0.8rem 1.5rem;
+}
+
+.nav-logo {
+color: #ffffff;
+font-weight: 700;
+font-size: 1.2rem;
+text-decoration: none;
+}
+
+.nav-links {
+list-style: none;
+display: flex;
+gap: 1.5rem;
+}
+
+.nav-links a {
+color: #ffffff;
+text-decoration: none;
+font-weight: 500;
+transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+color: #00c389; /* coastal green accent */
+}
+
+.nav-btn {
+background: #00c389;
+color: #fff;
+padding: 0.5rem 1rem;
+border-radius: 6px;
+font-weight: 600;
+}
+
+.nav-btn:hover {
+background: #00d698;
+color: #fff;
+}
+
+/* Adjust hero padding to avoid nav overlap */
+.hero {
+padding-top: 5rem;
+}
 /* =========================================================
 Community Savings Solution — Main Stylesheet
 Author: Timothy Murphy
