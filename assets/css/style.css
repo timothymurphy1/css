@@ -632,3 +632,23 @@ text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
 max-width: 700px;
 text-align: left;
 }
+/* ---------- RETURN TO MISSION LINK ---------- */
+.return-footer {
+text-align: center;
+padding: 3rem 1rem;
+background: #f7f7f7;
+border-top: 1px solid #ddd;
+}
+
+.return-link {
+color: #00334e;
+font-weight: 600;
+text-decoration: none;
+font-size: 1.1rem;
+transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.return-link:hover {
+color: #00c389; /* coastal green accent */
+transform: translateX(-4px);
+}
