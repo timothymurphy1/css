@@ -652,3 +652,18 @@ transition: color 0.3s ease, transform 0.3s ease;
 color: #00c389; /* coastal green accent */
 transform: translateX(-4px);
 }
+/* ---------- CHAIRPERSON PAGE HERO IMAGE ---------- */
+.chair-hero {
+margin: 0 0 2rem 0;
+text-align: center;
+}
+
+.chair-hero img {
+width: 100%;
+max-width: 1100px;
+border-radius: 10px;
+object-fit: cover;
+display: block;
+margin: 0 auto;
+}
+
