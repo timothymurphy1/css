@@ -1125,3 +1125,36 @@ font-weight: 600;
 color: #fff;
 opacity: 0.9;
 }
+/* ---------- COPPER & GOLD QUOTE (v1.8.5) ---------- */
+.doerr-quote {
+margin: 4rem auto;
+padding: 2rem 1rem;
+background: linear-gradient(90deg, #b87333, #c88b3c, #b87333);
+color: #fff;
+font-size: 1.5rem;
+font-style: italic;
+border-radius: 10px;
+box-shadow:
+0 0 20px rgba(255, 215, 0, 0.35), /* golden glow */
+0 4px 15px rgba(0, 0, 0, 0.25); /* depth shadow */
+max-width: 800px;
+text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.doerr-quote:hover {
+transform: scale(1.02);
+box-shadow:
+0 0 25px rgba(255, 215, 0, 0.5),
+0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.doerr-quote footer {
+display: block;
+margin-top: 1rem;
+font-size: 1rem;
+font-weight: 600;
+color: #fff;
+opacity: 0.9;
+text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
