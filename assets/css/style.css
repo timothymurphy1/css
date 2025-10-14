@@ -1239,3 +1239,14 @@ color: #ffffff; /* <— ensure white text */
 text-shadow: 0 2px 5px rgba(0,0,0,0.6);
 width: 90%;
 }
+/* ---------- JOIN PAGE SECOND IMAGE (Bridge Across Community) ---------- */
+.join-image {
+margin-bottom: 2rem;
+}
+
+.join-image img {
+width: 100%;
+border-radius: 10px;
+display: block;
+box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+}
